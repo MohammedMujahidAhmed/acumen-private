@@ -5,12 +5,13 @@ const About = () => {
     const aboutCard =  useRef(null);
 
     const applyOverlayMask = (e) => {
-        const x = e.pageX - aboutCard.current.offsetLeft;
-        const y = e.pageY - aboutCard.current.offsetTop;
-    
         if (!aboutCard.current) {
             return;
         }
+        
+        const x = e.pageX - aboutCard.current.offsetLeft;
+        const y = e.pageY - aboutCard.current.offsetTop;
+    
     
         aboutCard.current.setAttribute(
             "style",

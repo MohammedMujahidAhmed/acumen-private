@@ -5,12 +5,13 @@ const OurTheme = () => {
     const themeCard =  useRef(null);
 
     const applyOverlayMask = (e) => {
-        const x = e.pageX - themeCard.current.offsetLeft;
-        const y = e.pageY - themeCard.current.offsetTop;
-    
         if (!themeCard.current) {
             return;
         }
+        
+        const x = e.pageX - themeCard.current.offsetLeft;
+        const y = e.pageY - themeCard.current.offsetTop;
+    
     
         themeCard.current.setAttribute(
             "style",
