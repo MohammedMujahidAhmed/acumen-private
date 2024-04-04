@@ -18,16 +18,7 @@ const data = [
         name:"S.V. Ramana",
         desig:"Principal",
     },
-    {
-        imgsrc:komalkaur,
-        name:"Komal Kaur",
-        desig:"Faculty",
-    },
-    {
-        imgsrc:nishitha,
-        name:"Naishita",
-        desig:"Faculty",
-    }
+    
 ]
 
 const Mentors = () => {
