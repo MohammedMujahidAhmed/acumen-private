@@ -22,7 +22,7 @@ const Home = () => {
   }
 
   return (
-    <main className="bg-zinc-800 min-h-screen App">
+    <main className="bg-black min-h-screen App">
       <section className='max-w-[1200px] m-auto'>
         <HeroSection/>
         <About/>

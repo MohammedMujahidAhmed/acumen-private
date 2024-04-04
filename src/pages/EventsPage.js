@@ -236,7 +236,7 @@ const data = [
         date:'18th April 2024',
         description:"Get ready to embark on the ultimate adventure of wit and discovery at Acumen 2024 - the grand tech fest of Vasavi College of Engineering! 🚀 Join us on April 18th, 2024, at our campus in Ibrahimbagh, Hyderabad, for an electrifying Treasure Hunt like never before! 🗝🔍",
         announcement:'Do check the Registration form for more information',
-        fee:'Rs. 500/- per team',
+        fee:'Rs. 200/- per team',
         teamsize:'1-2',
         pricepool:'4000',
         prices:[],
@@ -351,7 +351,7 @@ const data = [
 
 const EventsPage = () => {
   return (
-    <section className='min-h-screen bg-zinc-800 relative overflow-hidden'>
+    <section className='min-h-screen bg-black relative overflow-hidden'>
         <section className='max-w-[1200px] m-auto flex flex-col gap-5 text-white p-4 z-100'>
             <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center'>Acumen'24 Events</h1>
             <div className='flex flex-row flex-wrap justify-center gap-8 relative'>
