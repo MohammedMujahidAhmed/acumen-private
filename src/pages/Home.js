@@ -30,6 +30,7 @@ const Home = () => {
         <Sponsers/>
         <Mentors/>
         <OurTeam/>
+        <Footer/>
       </section>
     </main>
   )

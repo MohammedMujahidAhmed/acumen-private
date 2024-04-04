@@ -1,5 +1,4 @@
 import React from 'react'
-import Event from '../components/Event'
 import '../styles/EventPage.css'
 import paperpresentationimg from '../images/eventPosters/1paperpresentation.jpg'
 import promptcraftimg from '../images/eventPosters/2promptcraft.jpg'
@@ -18,7 +17,9 @@ import FlipTicTacToe from '../images/eventPosters/14FlipTicTacToe.jpg'
 import TheSAGA from '../images/eventPosters/15TheSAGA.jpg'
 import BidAndCode from '../images/eventPosters/16BidAndCode.jpg'
 import SyntaxSleuthShowdown from '../images/eventPosters/17SyntaxSleuthShowdown.jpg'
-
+import EventCard from '../components/EventCard'
+import Pictionary from '../images/eventPosters/18Pictionary.jpg'
+import DecryptNCode from '../images/eventPosters/19DecryptNCode.jpg'
 
 
 
@@ -80,7 +81,7 @@ const data = [
         img:GRAPHICALPALOOZA,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
         date:'18th April 2024',
-        description:"Prepare to present your cutting-edge projects and vie for recognition at Acumen 2024, the esteemed tech fest! Whether you're a trailblazer with a pioneering concept or a resourceful problem-solver, Project Expo is your opportunity to shine!",
+        description:"Unleash your Creativity: Join us for a poster making spectacular!!\nThemes:\n1. Advancements in Artificial Intelligence2. Sustainable Technologie\n3. Blockchain and Cryptocurrency\n4. Internet of Things (IoT)\n5. Emerging Trends in Biotechnology",
         announcement:'Do check the Registration form for Themes',
         fee:'Rs. 150/- per Team',
         teamsize:'1-2',
@@ -312,110 +313,51 @@ const data = [
         posterLink:'#',
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLScuyaW2ApFAQYkd8-ilEIbgZXE9vExP4EqtHi_i0HxbGNMvTQ/viewform'
     },
+    {
+        // 18
+        name:'Pictionary',
+        img:Pictionary,
+        venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
+        date:'18th April 2024',
+        description:"Prepare to put your guessing skills to the test in this exhilarating game of wit and imagination 🏆 Compete with fellow thrill-seekers to claim victory and prove your prowess as the ultimate Pictionary champion!",
+        announcement:'Do check the Registration form for more information',
+        fee:'Rs. 100/- per Team',
+        teamsize:'2',
+        pricepool:'',
+        prices:[],
+        coord :[{coordinator:'Harsha ',phoneno:'+91 8374918489'},{coordinator:'Sri Vidya',phoneno:'+91 9246545450'}],
+        rules:[],
+        posterLink:'#',
+        eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSclCY3yvONwFavzL4U8GwmthbxhBXsLVx9VKxhGl7_-NS42oQ/viewform'
+    },
+    {
+        // 19
+        name:'Decrypt N Code',
+        img:DecryptNCode,
+        venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
+        date:'18th April 2024',
+        description:" Embark on a journey of decoding, problem-solving, and friendly competition as we present the best of coding challenges. From beginner puzzles to advanced algorithms, there's something for every coder!",
+        announcement:'Do check the Registration form for more information',
+        fee:'Rs. 100/- per Team',
+        teamsize:'1-2',
+        pricepool:'2500',
+        prices:[],
+        coord :[{coordinator:'Satwik ',phoneno:'9182658705'},{coordinator:'Sai Krishna',phoneno:'9392491427'}],
+        rules:[],
+        posterLink:'#',
+        eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSfsARFaREDzvVsB4ZUNgD0yWMPVVxSvP5J0ao-AduYuxQ14QA/viewform'
+    },
 ]
 
 const EventsPage = () => {
   return (
     <section className='min-h-screen bg-zinc-800 relative overflow-hidden'>
-        <div class="glowing">
-    
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
-        <div class="glowing">
-            
-            <span style={{'--i':1}}></span>
-            
-            <span style={{'--i':2}}></span>
-            
-            <span style={{'--i':3}}></span>
-            
-        </div>
         <section className='max-w-[1200px] m-auto flex flex-col gap-5 text-white p-4 z-100'>
             <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center'>Acumen'24 Events</h1>
             <div className='flex flex-row flex-wrap justify-center gap-8 relative'>
                 {
                     data.map((d,index)=>(
-                        <Event key={index} {...d}/>
+                        <EventCard key={index} eventData={d}/>
                     ))
                 }
             </div>

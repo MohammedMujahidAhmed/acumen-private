@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <p className='font-bold text-center  brightness-125'>Presents</p>
             </section>
             <h1 className='blink-text text-[45px] sm:text-[80px] md:text-[90px] lg:text-[120px] z-20'>Acumen</h1>
-            <h4 className='uppercase text-2xl text-center pt-4 font-bold z-20'>csefest'24</h4>
+            <h4 className='uppercase text-2xl text-center pt-4 font-bold z-20'>csfest'24</h4>
             <p className='text-center  brightness-150 text-xl z-20'>
                 Dive into the Fest: Where Every Moment Sparks&nbsp;
                 <span className='text-blue-900 font-semibold brightness-200 z-20'>
