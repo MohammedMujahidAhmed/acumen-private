@@ -7,6 +7,7 @@ import Sponsers from '../components/Sponsers'
 import About from '../components/About'
 import HeroSection from '../components/HeroSection'
 import Preloader from '../components/Preloader';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [pageLoaded, setPageLoaded] = useState(false);
