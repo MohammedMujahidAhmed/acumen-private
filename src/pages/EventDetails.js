@@ -5,7 +5,7 @@ import '../styles/EventDetails.css'
 const EventDetails = () => {
     let { state } = useLocation();
   return (
-    <section className='min-h-screen h-[100%] bg-zinc-800 p-4 overflow-hidden bg-[radial-gradient(ellipse_at_bottom,_#1b2735_0%,#090a0f_100%)]'>
+    <section className='min-h-screen h-[100%] bg-black p-4 overflow-hidden bg-[radial-gradient(ellipse_at_bottom,_#1b2735_0%,#090a0f_100%)]'>
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>

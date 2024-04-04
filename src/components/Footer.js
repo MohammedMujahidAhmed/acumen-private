@@ -19,10 +19,12 @@ Telangana, India.</p>
         </div>
       </article>
       <div>
-        <p className='text-gray-500 text-center m-2'>This website is designed and developed by <a href='https://www.linkedin.com/in/mohammed-mujahid-ahmed-913418221/' rel="noreferrer" target='_blank' className='text-blue-900 brightness-150'>@Mohammed Mujahid Ahmed</a> , <a href='https://www.linkedin.com/in/sainith/' rel="noreferrer" target='_blank' className='text-blue-900 brightness-150'>@Yamsani Sainith</a></p>
+        <p className='text-gray-500 text-2xl text-center m-2'>Designed and developed by <a href='https://www.linkedin.com/in/mohammed-mujahid-ahmed-913418221/' rel="noreferrer" target='_blank' className='text-blue-900 brightness-150'>@Mohammed Mujahid Ahmed</a> , <a href='https://www.linkedin.com/in/sainith/' rel="noreferrer" target='_blank' className='text-blue-900 brightness-150'>@Yamsani Sainith</a></p>
       </div>
     </section>
   )
 }
 
-export default Footer
+export default Footer;
+
+
