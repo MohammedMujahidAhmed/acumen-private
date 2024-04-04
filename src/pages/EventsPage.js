@@ -60,6 +60,23 @@ const data = [
     },
     {
         // 3
+        name:'Decrypt N Code',
+        img:DecryptNCode,
+        venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
+        date:'18th April 2024',
+        description:" Embark on a journey of decoding, problem-solving, and friendly competition as we present the best of coding challenges. From beginner puzzles to advanced algorithms, there's something for every coder!",
+        announcement:'Do check the Registration form for more information',
+        fee:'Rs. 100/- per Team',
+        teamsize:'1-2',
+        pricepool:'2500',
+        prices:[],
+        coord :[{coordinator:'Satwik ',phoneno:'9182658705'},{coordinator:'Sai Krishna',phoneno:'9392491427'}],
+        rules:[],
+        posterLink:'#',
+        eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSfsARFaREDzvVsB4ZUNgD0yWMPVVxSvP5J0ao-AduYuxQ14QA/viewform'
+    },
+    {
+        // 4
         name:'Project Expo',
         img:projectexpoimg,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
@@ -76,7 +93,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSd_lhc1lPIUR0ME3ARllw7HhvuAUBRDOrH0s7OK4eCPSld9WA/viewform'
     },
     {
-        // 4
+        // 5
         name:'GRAPHICAL PALOOZA',
         img:GRAPHICALPALOOZA,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
@@ -93,7 +110,7 @@ const data = [
         eventLink:'https://forms.gle/64XiKenzEHfP1ZL77'
     },
     {
-        // 5
+        // 6
         name:'Cube master',
         img:Cubemaster,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
@@ -110,7 +127,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSemktlp4MRprQvrfdLDJ9uOdXzdKzaosdPg8LduhgCFINWf8Q/viewform?vc=0&c=0&w=1&flr=0'
     },
     {
-        // 6
+        // 7
         name:'CODE CLASH TIC-TAC-TOE',
         img:CODECLASHTICTACTOE,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
@@ -127,7 +144,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSdXr7MXv5P_8TnZfszmjaViD_u1UQzjv9vECiB12PG_MA88Ug/viewform?usp=sf_link'
     },
     {
-        // 7
+        // 8
         name:'Smash Karts Tournament',
         img:SmashKartsTournament,
         venue:' R-block , Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -144,7 +161,7 @@ const data = [
         eventLink:'https://forms.gle/m6EWBEbsZqVWvWyH7'
     },
     {
-        // 8
+        // 9
         name:'SQUID GAME',
         img:SQUIDGAME,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -161,7 +178,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSfgEtfgaSOWZSF7NDW6l9FQmkt_fBIsIv6Z0L4EFORFZKTlOQ/viewform'
     },
     {
-        // 9
+        // 10
         name:'IMAGINATION FORGE',
         img:IMAGINATIONFORGE,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -178,7 +195,7 @@ const data = [
         eventLink:'https://forms.gle/EGcGn6zABWRkAHwy6 '
     },
     {
-        // 10
+        // 11
         name:'Rhythmic Reveal',
         img:RhythmicReveal,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -195,7 +212,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSfz5CE-a61hyAyL088ifUEh8Go8bMLYXgONQfHPcHljy-CQJQ/viewform'
     },
     {
-        // 11
+        // 12
         name:'Ignite Genesis',
         img:IgniteGenesis,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -212,7 +229,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLScis0UKbbIFD_gtndzYa7pbWqKDZczkV8a3ho3LyojFynM7eQ/viewform'
     },
     {
-        // 12
+        // 13
         name:'CINEMOJI',
         img:CINEMOJI,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -229,7 +246,7 @@ const data = [
         eventLink:'https://forms.gle/f8TF1nVhEzdrW1RL7'
     },
     {
-        // 13
+        // 14
         name:'Treasure Hunt',
         img:TreasureHunt,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -246,7 +263,7 @@ const data = [
         eventLink:'https://forms.gle/rpPbK9hYqfLSq7Na8'
     },
     {
-        // 14
+        // 15
         name:'Flip Tic Tac Toe',
         img:FlipTicTacToe,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -263,7 +280,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSe3mP2JGlvN4Xw9_vJf1cl0s8r0YQa47nPp1R7GnPKcG0EpUg/viewform'
     },
     {
-        // 15
+        // 16
         name:'The SAGA',
         img:TheSAGA,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -280,7 +297,7 @@ const data = [
         eventLink:'https://forms.gle/XZPgNoPiHKPySPx77'
     },
     {
-        // 16
+        // 17
         name:'Bid And Code',
         img:BidAndCode,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -297,7 +314,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/1hV8MpeF6xGFzFe5_44tgKQ6BOl0nwM2EJL2WF0hgWN0 '
     },
     {
-        // 17
+        // 18
         name:'Syntax Sleuth Showdown',
         img:SyntaxSleuthShowdown,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -314,7 +331,7 @@ const data = [
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLScuyaW2ApFAQYkd8-ilEIbgZXE9vExP4EqtHi_i0HxbGNMvTQ/viewform'
     },
     {
-        // 18
+        // 19
         name:'Pictionary',
         img:Pictionary,
         venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
@@ -330,23 +347,7 @@ const data = [
         posterLink:'#',
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSclCY3yvONwFavzL4U8GwmthbxhBXsLVx9VKxhGl7_-NS42oQ/viewform'
     },
-    {
-        // 19
-        name:'Decrypt N Code',
-        img:DecryptNCode,
-        venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
-        date:'18th April 2024',
-        description:" Embark on a journey of decoding, problem-solving, and friendly competition as we present the best of coding challenges. From beginner puzzles to advanced algorithms, there's something for every coder!",
-        announcement:'Do check the Registration form for more information',
-        fee:'Rs. 100/- per Team',
-        teamsize:'1-2',
-        pricepool:'2500',
-        prices:[],
-        coord :[{coordinator:'Satwik ',phoneno:'9182658705'},{coordinator:'Sai Krishna',phoneno:'9392491427'}],
-        rules:[],
-        posterLink:'#',
-        eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSfsARFaREDzvVsB4ZUNgD0yWMPVVxSvP5J0ao-AduYuxQ14QA/viewform'
-    },
+    
 ]
 
 const EventsPage = () => {

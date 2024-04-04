@@ -26,7 +26,10 @@ const HeroSection = () => {
                 </div>
                 <p className='font-bold text-center text-xl brightness-125'>Presents</p>
             </section>
-            <h1 className='blink-text text-[45px] sm:text-[80px] md:text-[90px] lg:text-[120px] z-20'>Acumen</h1>
+            <div className='relative flex flex-col justify-center items-center'>
+                <img className='absolute top-0 md:top-0 sm:left-10 md:left-4 z-10 blur-[1px] md:blur-[1px] backdrop-blur-sm w-[300px] md:w-fit' src={jarvisbg} alt='arcreactor' loading="lazy" ></img>
+                <h1 className='blink-text text-[45px] sm:text-[80px] md:text-[90px] lg:text-[120px] z-20'>Acumen</h1>
+            </div>
             <h4 className='uppercase text-2xl md:text-4xl text-center pt-4 font-bold z-20'>csfest'24</h4>
             <p className='text-center  brightness-150 text-xl z-20'>
                 Dive into the Fest: Where Every Moment Sparks&nbsp;
@@ -38,7 +41,6 @@ const HeroSection = () => {
             <div className='flex justify-center items-center z-20'>
                 <Link to='/events' className='button-86 z-20'>Explore Events</Link>
             </div>
-            <img className='absolute top-8 md:top-2 z-10 blur-[1px] md:blur-[1px] backdrop-blur-sm w-[300px] md:w-fit' src={jarvisbg} alt='arcreactor' loading="lazy" ></img>
         </div>
         <div className='star star1 overflow-hidden'></div>
         <div className='star star2 overflow-hidden'></div>
