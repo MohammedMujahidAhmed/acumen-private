@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import hod from '../images/hod.jpeg'
 import principal from '../images/principal.jpeg'
-import komalkaur from '../images/komalkaur.png'
-import nishitha from '../images/nishitha.jpeg'
+import jalaja from '../images/jalaja.jpg'
 import Frames from './Frames'
 import circles from '../gif/circles.gif'
 // import Marquee from 'react-fast-marquee'
@@ -18,7 +17,11 @@ const data = [
         name:"S.V. Ramana",
         desig:"Principal",
     },
-    
+    {
+        imgsrc:jalaja,
+        name:"Ms. T.Jalaja",
+        desig:"Faculty",
+    },
 ]
 
 const Mentors = () => {
