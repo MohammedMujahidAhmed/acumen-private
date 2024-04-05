@@ -4,12 +4,12 @@ import principal from '../images/principal.jpeg'
 import jalaja from '../images/jalaja.jpg'
 import Frames from './Frames'
 import circles from '../gif/circles.gif'
-// import Marquee from 'react-fast-marquee'
+import bhargavi from '../images/bhargavi.jpg'
 
 const data = [
     {
         imgsrc:hod,
-        name:"Dr. Adilakshmi",
+        name:"Dr. T.Adilakshmi",
         desig:"HOD",
     },
     {
@@ -20,6 +20,11 @@ const data = [
     {
         imgsrc:jalaja,
         name:"Ms. T.Jalaja",
+        desig:"Faculty",
+    },
+    {
+        imgsrc:bhargavi,
+        name:"Dr. Bhargavi Peddi Reddy",
         desig:"Faculty",
     },
 ]
