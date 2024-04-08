@@ -2,6 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
+    <div className='backdrop-blur-[20px]'>
     <section className='p-2 flex flex-col items-center justify-center'>
       <div className='w-[97%] h-[2px] bg-blue-600'></div>
       <article>
@@ -24,6 +25,7 @@ Telangana, India.</p>
 
       </div>
     </section>
+    </div>
   )
 }
 
