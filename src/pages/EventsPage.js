@@ -354,7 +354,7 @@ const EventsPage = () => {
   return (
     <section className='min-h-screen bg-black relative overflow-hidden'>
         <section className='max-w-[1200px] m-auto flex flex-col gap-5 text-white p-4 z-100'>
-            <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center'>Acumen'24 Events</h1>
+            <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center mt-50 mb-50' >Acumen'24 Events</h1>
             <div className='flex flex-row flex-wrap justify-center gap-8 relative'>
                 {
                     data.map((d,index)=>(
