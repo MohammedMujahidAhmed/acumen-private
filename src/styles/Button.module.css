@@ -8,6 +8,7 @@
 
 .electric {
   padding: 20px 50px;
+  margin-top: 25px;
   border-radius: 100px;
   cursor: pointer;
   background-color: rgba(106, 123, 252, 0.13);
@@ -54,7 +55,8 @@
 }
 
 #y1 {
-  top: -115%;
+  top: -65px;
+  bottom: -58px;
   left: -5%;
   filter: blur(0.5px);
 }
@@ -62,19 +64,22 @@
 #y2 {
   width: 120%;
   left: -10%;
-  top: -155%;
+  top: -90px;
+  bottom: -71px;
   filter: brightness(1);
 }
 
 #b1 {
   left: -5%;
-  top: -125%;
+  top: -70px;
+  bottom: -65px;
   /* filter: blur(.5px) */
 }
 
 #b2 {
   left: -10%;
-  top: -165%;
+  top: -90px;
+  bottom: -88px;
   width: 120%;
   /* filter: blur(.5px) */
 }
@@ -180,13 +185,14 @@
   opacity: 0;
 }
 
-#electric:hover + .hide {
-  opacity: 1;
-}
-#electric:hover .hide {
+#electric + .hide {
   opacity: 1;
 }
 
-.electric:hover .part {
+.hide {
+  opacity: 1;
+}
+
+.part {
   display: flex;
 }
