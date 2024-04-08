@@ -46,12 +46,12 @@ const data = [
     {
         imgsrc:teammember6,
         name:"Mujahid",
-        desig:"web developer",
+        desig:"web Team",
     },
     {
         imgsrc:teammember7,
         name:"Sainith",
-        desig:"web developer",
+        desig:"web Team",
     },
     {
         imgsrc:teammember8,
