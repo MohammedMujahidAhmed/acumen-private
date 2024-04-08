@@ -109,23 +109,23 @@ const data = [
         posterLink:'#',
         eventLink:'https://forms.gle/64XiKenzEHfP1ZL77'
     },
-    {
-        // 6
-        name:'Cube master',
-        img:Cubemaster,
-        venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
-        date:'18th April 2024',
-        description:"🔥Calling all aspiring cubers to show their talent! Join Us for a Cube Event: Solve, Compete, and Connect!",
-        announcement:'Do check the Registration form for more information',
-        fee:'Rs. 50/- per Team',
-        teamsize:'1',
-        pricepool:'800',
-        prices:[],
-        coord :[{coordinator:'Ranesh ',phoneno:'+91 7569191820'}],
-        rules:[],
-        posterLink:'#',
-        eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSemktlp4MRprQvrfdLDJ9uOdXzdKzaosdPg8LduhgCFINWf8Q/viewform?vc=0&c=0&w=1&flr=0'
-    },
+    // {
+    //     // 6
+    //     name:'Cube master',
+    //     img:Cubemaster,
+    //     venue:'Vasavi College of Engineering, Ibrahimbagh, Hyderabad',
+    //     date:'18th April 2024',
+    //     description:"🔥Calling all aspiring cubers to show their talent! Join Us for a Cube Event: Solve, Compete, and Connect!",
+    //     announcement:'Do check the Registration form for more information',
+    //     fee:'Rs. 50/- per Team',
+    //     teamsize:'1',
+    //     pricepool:'800',
+    //     prices:[],
+    //     coord :[{coordinator:'Ranesh ',phoneno:'+91 7569191820'}],
+    //     rules:[],
+    //     posterLink:'#',
+    //     eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSemktlp4MRprQvrfdLDJ9uOdXzdKzaosdPg8LduhgCFINWf8Q/viewform?vc=0&c=0&w=1&flr=0'
+    // },
     {
         // 7
         name:'CODE CLASH TIC-TAC-TOE',
@@ -354,7 +354,7 @@ const EventsPage = () => {
   return (
     <section className='min-h-screen bg-black relative overflow-hidden'>
         <section className='max-w-[1200px] m-auto flex flex-col gap-5 text-white p-4 z-100'>
-            <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center'>Acumen'24 Events</h1>
+            <h1 className='text-5xl font-bold bg-[linear-gradient(45deg,_#553c9a,_#ee4b2b)] text-transparent bg-clip-text text-center ' style={{ marginTop: '30px', marginBottom: '50px' }}>Acumen'24 Events</h1>
             <div className='flex flex-row flex-wrap justify-center gap-8 relative'>
                 {
                     data.map((d,index)=>(
