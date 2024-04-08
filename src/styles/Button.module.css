@@ -8,7 +8,6 @@
 
 .electric {
   padding: 20px 50px;
-  margin-top: 25px;
   border-radius: 100px;
   cursor: pointer;
   background-color: rgba(106, 123, 252, 0.13);
@@ -185,14 +184,28 @@
   opacity: 0;
 }
 
-#electric + .hide {
+/* Default styles */
+#electric:hover + .hide {
   opacity: 1;
 }
-
-.hide {
+#electric:hover .hide {
   opacity: 1;
 }
-
-.part {
+.electric:hover .part {
   display: flex;
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 767px) {
+  #electric + .hide {
+    opacity: 1;
+  }
+  
+  .hide {
+    opacity: 1;
+  }
+  
+  .part {
+    display: flex;
+  }
 }
