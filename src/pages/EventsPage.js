@@ -20,6 +20,7 @@ import SyntaxSleuthShowdown from '../images/eventPosters/17SyntaxSleuthShowdown.
 import EventCard from '../components/EventCard'
 import Pictionary from '../images/eventPosters/18Pictionary.jpg'
 import DecryptNCode from '../images/eventPosters/19DecryptNCode.jpg'
+import USnoozeULose from '../images/eventPosters/20USnoozeULose.jpg'
 
 
 
@@ -347,7 +348,23 @@ const data = [
         posterLink:'#',
         eventLink:'https://docs.google.com/forms/d/e/1FAIpQLSclCY3yvONwFavzL4U8GwmthbxhBXsLVx9VKxhGl7_-NS42oQ/viewform'
     },
-    
+    {
+        // 20
+        name:'U Snooze, U Lose',
+        img:USnoozeULose,
+        venue:'R block , Vasavi College of Engineering, Ibrahimbagh, Hyderabad.',
+        date:'18th April 2024',
+        description:"Join us at VASAVI COLLEGE OF ENGINEERING for the most awaited tech fest✨ and Unleash the suspense we have planned for you ....Along with fun, laughter, and unforgettable memories",
+        announcement:'Do check the Registration form for more information',
+        fee:'Rs. 50/- per Head',
+        teamsize:'1-2',
+        pricepool:'',
+        prices:[],
+        coord :[{coordinator:'Harsha ',phoneno:'+91 8374918489'},{coordinator:'Mahalakshmi',phoneno:'+91 7013078356'}],
+        rules:["It's a group of 3 childhood games","Round 1 : Twin trial","Round 2 and 3 would be a suspense and revealed once u reach there"],
+        posterLink:'#',
+        eventLink:'https://forms.gle/SCd8MjyDqzHTDCpy5'
+    },
 ]
 
 const EventsPage = () => {
